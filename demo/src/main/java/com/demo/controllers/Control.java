@@ -17,4 +17,9 @@ public class Control {
     public String getHello2() {
         return "Hello World2!";
     }
+
+    @GetMapping("/aman")
+    public String getaman() {
+        return "Hello aman!";
+    }
 }
