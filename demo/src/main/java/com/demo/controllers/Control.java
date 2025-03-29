@@ -12,4 +12,9 @@ public class Control {
     public String getHello() {
         return "Hello World!";
     }
+
+    @GetMapping("/hello")
+    public String getHello2() {
+        return "Hello World2!";
+    }
 }
