@@ -22,4 +22,9 @@ public class Control {
     public String getaman() {
         return "Hello aman!";
     }
+
+    @GetMapping("/hitesh")
+    public String gethite() {
+        return "Hello hitesh!";
+    }
 }
